@@ -2,8 +2,8 @@
 /**
  * Write a description of class StudentMain here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Muhammad Faizan Ansar)
+ * @version (25/09/2022)
  */
 import java.io.BufferedReader;
 import java.io.FileReader;
