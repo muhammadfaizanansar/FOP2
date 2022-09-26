@@ -1,0 +1,54 @@
+							Algorithm 1
+Program Start
+Creata and initialize local varibales named min and max.
+Store the first value of total marks array in min and max variables.
+Run a outer for loop from 10 times
+	Run a inner for loop until the size of total marks array
+		check if the values at the index of total mark array is greater than max
+			assign that value to the max varibales
+			store that value in the highest marks array
+	close the inner loop		
+close the outer loop		
+Run a outer for loop from 10 times
+	Run a inner for loop until the size of total marks array
+		check if the values at the index of total mark array is less than min
+			assign that value to the min varibales
+			store that value in the lowest marks array
+	close the inner loop		
+close the outer loop
+
+Program End
+
+							Algorithm 2
+Program Start
+Start Loop and Show 5 options to the user.
+	Take choice from users to open the desired menu.
+	if User enters 1
+		Run the Case.
+			Run the Whil loop and read the file line by line from user.
+			Ignore first 2 lines of the file.
+			Split the line by comman and Store the values of line in a strinh array.
+			Store values in the arrays list.
+			break the case.
+	if user enter 2
+		Run the for loop until the size of any arraylise that holds student data
+			Add the student grades in a newly array list.
+		Run a for loop and display the data of array lists
+		break the case
+	if user enters 3
+		take a thresholo value from user
+		check if the value of total marks array is less than the threshold value
+			display the records on screen. 
+		break the case
+	if user enters 4 
+		Run a for loop until the size on initial variable reaches at 10
+			Run a inner for loop to compares and find the max values of the total marks array
+				check if the value at the index of total mark is greater than the first value
+					store the max value in a new array
+			close the for loop		
+		close the for loop
+		break the case.
+	if user enters 5
+		close the program
+	Run the loop again if user enters other than 1-5.
+Program End
